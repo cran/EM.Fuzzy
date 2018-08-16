@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+import(graphics)
+import(stats)
+importFrom("FuzzyNumbers", "plot", "supp", "core", "TriangularFuzzyNumber", "TrapezoidalFuzzyNumber", "evaluate")
+importFrom("DISTRIB", "pdf")
